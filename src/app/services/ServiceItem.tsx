@@ -9,12 +9,17 @@ interface ServiceItemProps {
 
 const ServiceItem: React.FC<ServiceItemProps> = ({ title, description, icon }) => {
   return (
-    <div className="flex flex-col items-center border border-yellow-400 rounded-md p-6 shadow-md hover:shadow-lg transition">
-      <div className="mb-4">{icon}</div>
-      <h3 className="text-xl font-bold text-center mb-2">{title}</h3>
+    <div className="flex flex-col border border-yellow-400 rounded-md p-6 shadow-md hover:shadow-lg transition">
+      {/* Icon and Title in a single row */}
+      <div className="flex items-center mb-4">
+        {/* Outlined icon */}
+        <div className="p-2 border border-gray-400 rounded-md mr-4">{icon}</div>
+        <h3 className="text-xl font-bold text-gray-600">{title}</h3>
+      </div>
       <p className="text-center text-gray-600">{description}</p>
     </div>
   );
 };
 
 export default ServiceItem;
+
