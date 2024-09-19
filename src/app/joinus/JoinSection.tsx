@@ -7,7 +7,7 @@ const JoinSection: React.FC = () => {
     <section className="flex flex-col md:flex-row items-center justify-between py-16 px-4 md:px-24 bg-white">
       {/* Text Section */}
       <div className="flex-1 mb-8 md:mb-0 md:mr-8 text-center md:text-left">
-        <h2 className="text-3xl font-bold mb-4">
+        <h2 className="text-3xl font-bold mb-4 text-gray-800">
           Join us in making CBC more easier
         </h2>
       </div>

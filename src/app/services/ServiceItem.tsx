@@ -14,9 +14,9 @@ const ServiceItem: React.FC<ServiceItemProps> = ({ title, description, icon }) =
       <div className="flex items-center mb-4">
         {/* Outlined icon */}
         <div className="p-2 border border-gray-400 rounded-md mr-4">{icon}</div>
-        <h3 className="text-xl font-bold text-gray-600">{title}</h3>
+        <h3 className="text-xl font-bold text-gray-800">{title}</h3>
       </div>
-      <p className="text-center text-gray-600">{description}</p>
+      <p className="text-gray-600">{description}</p>
     </div>
   );
 };

@@ -19,7 +19,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({ name, imageUrl }) => {
           className="object-cover"
         />
       </div>
-      <h3 className="text-lg font-medium">{name}</h3>
+      <h3 className="text-lg font-medium text-gray-600">{name}</h3>
     </div>
   );
 };
